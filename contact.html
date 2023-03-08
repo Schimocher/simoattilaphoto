@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Simó Attila Photo</title>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1">
+            <link rel="icon" href="favicon1.png">
+            <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+            <style>
+                *{
+                    box-sizing: border-box;
+                    padding: 0;
+                    margin: 0;
+                }
+                body{
+                    background-image: url("portfolio/3.jpg");
+                    background-position: center;
+                    background-repeat: no-repeat;
+                    background-size: cover;
+                }
+                .parent {
+                        display: grid;
+                        grid-template-columns: repeat(2, 1fr);
+                        grid-template-rows: repeat(2, 1fr);
+                        
+                        background-color: rgba(66, 66, 66, 0);
+                        height: 100vh;
+                        font-family: "Montserrat", sans-serif;
+                }
+                .parent>div{
+                    display: grid;
+                    place-items: center;
+                    font-size: 10vh;
+                    
+                }
+                .parent>.kapcs{
+                    background-color: rgba(255, 255, 255, 0);
+                }
+                .parent>.facein{
+                    background-color: rgba(253, 253, 252, 0.274)
+                }
+                h1{
+                    margin: 50px;
+                    font-size: 5vh;
+                }
+                nav{
+            position: fixed;
+            left: 0px;
+            top: 0px;
+            width: 100vw;
+            background-color: rgb(0, 0, 0);
+            padding: 20px;
+            display: grid;
+            place-items: center;
+
+        }
+    li a{
+            text-decoration: none;
+            font-family: "Montserrat", sans-serif;
+            color: white;
+        }
+    li{
+            list-style-type: none;
+            margin: 15px;
+            padding: 10px;
+            display: inline;
+        }
+    li a:hover{
+            color: burlywood;
+        }
+        i{color: black;
+            padding: 20px;
+            border-radius: 45%;
+        }
+        i:hover{
+            transition: 0.5s;
+            background-color: white;
+            color: rgb(0, 36, 195);
+        }
+                
+            </style>
+    </head>
+    <body>
+        <nav>
+            <ul>
+                <li><a href="about.html">About</a></li>
+                <li><a href="index.html">Photos</a></li>
+                <li><a href="shop.html">Shop</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="parent">
+            <div class="kapcs"><h1>Kapcsolatok</h1></div>
+            <div class="facein"><a href="https://www.facebook.com/attila.simo.16/"><i class="fa fa-facebook-official"></i></a></div>
+            <div class="facein"><a href="https://www.instagram.com/simo_attila_/"><i class="fa fa-instagram"></i></a></div>
+            <div class="kapcs"><a href="https://www.linkedin.com/in/attila-sim%C3%B3-44641420b/"><i class="fa fa-linkedin"></i></a></div>
+        </div>
+    </body>
+</html>
